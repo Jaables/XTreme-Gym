@@ -1,0 +1,111 @@
+/* General */
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+h3 {
+    color: white;
+}
+
+body {
+    font-family: Audiowide;
+}
+
+html {
+    margin-top: 0px;
+    
+}
+
+
+
+
+
+/* Header */
+
+header {
+    width: 100%;
+    margin-top: 0px;
+    background-color:darkgrey;
+    vertical-align: middle;
+    position: fixed;
+    margin-top: 0px;
+
+
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    list-style: none;
+    padding: 10px;
+    
+    
+}
+
+header ul {
+    display: flex; 
+    
+}
+
+header h3 {
+    flex: 1;
+    text-align: left;
+    color: black;
+    padding-left: 10px;
+}
+
+p {
+    color: white;
+}
+
+/* Title */
+
+.title {
+    height: 550px;
+    background-image: url("/Users/jamiebell/Documents/Codecademy/Projects/XTreme Gym/resources/images/pexels-victor-freitas-949129.jpg");
+    background-size: cover;
+    background-position: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-text {
+    background-color: grey;
+    border: solid 1px white;
+    border-radius: 3px;
+    
+    
+}
+
+.title-text h2 {
+    padding: 5px;
+    color: black;
+}
+
+
+
+/* Our People */
+
+.our-people img {
+    height: 400px;
+    width: 400px;
+}
+
+.our-people p {
+    overflow: hidden;
+}
+
+.img-container {
+    display: flex;
+    padding: 10px 5%;
+    align-items: center;
+}
+
+
+
